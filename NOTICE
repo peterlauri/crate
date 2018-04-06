@@ -29,9 +29,9 @@ notices pertaining to those dependencies will be reproduced in this file.
 
 Crate provide pre-built releases for convenience, also known as convenience
 releases. Building CrateDB from source pulls in a number of additional
-third-party dependencies. Hence, final convenience release will contain a mix
-of CrateDB source code and third-party build-time dependencies not listed in
-the LICENSE file or here.
+third-party dependencies. Hence, convenience releases will contain a mix of
+CrateDB source code and third-party build-time dependencies not listed in the
+LICENSE file or here.
 
 Crate is committed to only using permissively licensed third-party code.
 However, for the time being, if you make use of the convenience releases, it is
