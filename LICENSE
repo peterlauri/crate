@@ -209,12 +209,14 @@ http://lucene.apache.org/
 developed by The Apache Software Foundation
 License: Apache License v2 (http://www.apache.org/licenses)
 
+
 ================================================================================
 
 Elasticsearch
 http://www.elasticsearch.org/
 developed by Elastic and Shay Banon
 License: Apache License v2 (http://www.apache.org/licenses)
+
 
 ================================================================================
 
@@ -223,12 +225,14 @@ http://prestodb.io
 developed by Facebook (https://github.com/facebook/presto)
 License: Apache License v2 (http://www.apache.org/licenses)
 
+
 ================================================================================
 
 Netty
 http://netty.io
 developed by The Netty Project
 License: Apache License v2 (http://www.apache.org/licenses)
+
 
 ================================================================================
 
@@ -237,6 +241,7 @@ https://github.com/grantr/elasticsearch-srv-discovery
 developed by Grant Rodgers
 License: MIT License, http://www.opensource.org/licenses/mit-license.php
 
+
 ================================================================================
 
 AWS Cloud Plugin for Elasticsearch
@@ -244,11 +249,13 @@ https://github.com/elastic/elasticsearch-cloud-aws
 developed by Elastic
 License: Apache License v2 (http://www.apache.org/licenses)
 
+
 ================================================================================
 
 Meyer CSS reset
 http://meyerweb.com/eric/tools/css/reset/
 License: none (public domain)
+
 
 ================================================================================
 
@@ -257,11 +264,13 @@ http://github.com/necolas/normalize.css
 Copyright (c) Nicolas Gallagher and Jonathan Neal
 License: https://github.com/necolas/normalize.css/blob/master/LICENSE.md
 
+
 ================================================================================
 
 CSS3-mediaqueries.js
 http://code.google.com/p/css3-mediaqueries-js/
 License: MIT License, http://www.opensource.org/licenses/mit-license.php
+
 
 ================================================================================
 
@@ -269,6 +278,7 @@ jQuery
 Copyright 2012 jQuery Foundation and other contributors
 http://jquery.com
 License: MIT License, http://jquery.org/license/
+
 
 ================================================================================
 
@@ -278,12 +288,14 @@ Copyright (c) 2010 Jan Lehnardt (JavaScript)
 http://mustache.github.com
 License: MIT License
 
+
 ================================================================================
 
 Raphael
 http://raphaeljs.com, from fork at git@github.com:mobz/g.raphael.git
 Copyright (c) 2010 Dmitry Baranovskiy
 License: MIT (http://raphaeljs.com/license.htm
+
 
 ================================================================================
 
@@ -292,12 +304,14 @@ https://github.com/mobz/date-range-parser
 Contributed to the Apache Software Foundation by Ben Birch - Aconex
 License: Apache License v2 (http://www.apache.org/licenses)
 
+
 ================================================================================
 
 Bootstrap
 https://getbootstrap.com
 Copyright 2012 Twitter, Inc.
 License: Apache License v2 (http://www.apache.org/licenses)
+
 
 ================================================================================
 
@@ -306,6 +320,7 @@ http://startbootstrap.com
 Copyright 2013 Iron Summit Media Strategies
 License: Apache License v2 (http://www.apache.org/licenses)
 
+
 ================================================================================
 
 AngularJS
@@ -313,12 +328,14 @@ http://angularjs.org
 Copyright 2010-2014 Google, Inc
 License: MIT (https://github.com/angular/angular.js/blob/master/LICENSE)
 
+
 ================================================================================
 
 Various Components of Lovely Systems GmbH
 http://www.lovelysystems.com
 Copyright Lovely Systems GmbH
 License: Apache 2.0 (http://www.apache.org/licenses)
+
 
 ================================================================================
 
