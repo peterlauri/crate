@@ -213,8 +213,8 @@ Licensed under the Apache License, Version 2.0 (see above for full license
 text).
 
 Elasticsearch bundles a number of third-party components. For a full list of
-the respective licenses, consult the relevant LICENSE.txt file that is included
-with the source code.
+the respective licenses, consult the relevant LICENSE.txt files that are
+included with the source code.
 
 As a general guideline, it is a policy of the Apache Software Foundation that
 all bundled third-party components should be available under a category A
