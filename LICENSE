@@ -204,18 +204,21 @@
 
 ================================================================================
 
-Lucene
-http://lucene.apache.org/
-developed by The Apache Software Foundation
-License: Apache License v2 (http://www.apache.org/licenses)
-
-
-================================================================================
+For the `es/upstream` directory:
 
 Elasticsearch
-http://www.elasticsearch.org/
-developed by Elastic and Shay Banon
-License: Apache License v2 (http://www.apache.org/licenses)
+Copyright 2009-2017 Elasticsearch
+
+Licensed under the Apache License, Version 2.0 (see above for full license
+text).
+
+Elasticsearch bundles a number of third-party components. For a full list of
+the respective licenses, consult the relevant LICENSE.txt file that is included
+with the source code.
+
+As a general guideline, it is a policy of Apache Software Foundation that all
+bundled third-party components should be available under a category A license
+(https://www.apache.org/legal/resolved.html#category-a).
 
 
 ================================================================================

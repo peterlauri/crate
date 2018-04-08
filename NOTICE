@@ -37,3 +37,9 @@ Crate is committed to only using permissively licensed third-party code.
 However, for the time being, if you make use of convenience releases, it is
 your responsibility to check the licensing status of the bundled third-party
 build-time dependencies.
+
+
+================================================================================
+
+This product includes software developed by The Apache Software
+Foundation (http://www.apache.org/).
