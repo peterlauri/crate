@@ -229,7 +229,8 @@ public class LogicalPlanner {
                                                         FetchMode fetchMode,
                                                         SessionContext sessionContext) {
         if (queriedRelation instanceof AnalyzedView) {
-            queriedRelation = ((AnalyzedView) queriedRelation).relation();
+            QueriedRelation relation = ((AnalyzedView) queriedRelation).relation();
+            return plan(relation, fetchMode, subqueryPlanner, false, sessionContext);
         }
         if (queriedRelation instanceof QueriedTable) {
             return Collect.create((QueriedTable) queriedRelation, toCollect, where);
@@ -312,7 +313,6 @@ public class LogicalPlanner {
     }
 
     private class Visitor extends AnalyzedStatementVisitor<PlannerContext, LogicalPlan> {
-
 
         @Override
         protected LogicalPlan visitAnalyzedStatement(AnalyzedStatement analyzedStatement, PlannerContext context) {
