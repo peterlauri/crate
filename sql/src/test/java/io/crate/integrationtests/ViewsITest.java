@@ -22,7 +22,6 @@
 
 package io.crate.integrationtests;
 
-import com.google.common.base.Joiner;
 import io.crate.metadata.RelationName;
 import io.crate.metadata.view.ViewsMetaData;
 import org.elasticsearch.cluster.service.ClusterService;
@@ -30,7 +29,8 @@ import org.hamcrest.Matchers;
 import org.junit.After;
 import org.junit.Test;
 
-import java.util.Arrays;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static io.crate.testing.TestingHelpers.printedTable;
 import static org.hamcrest.Matchers.is;
@@ -41,10 +41,10 @@ public class ViewsITest extends SQLTransportIntegrationTest {
     public void dropViews() {
         execute("SELECT table_schema || '.' || table_name FROM information_schema.views");
         if (response.rows().length > 0) {
-            Object[] views = Arrays.stream(response.rows())
-                .map((row) -> row[0])
-                .toArray();
-            execute(String.format("DROP VIEW %s", Joiner.on(",").join(views)));
+            String views = Stream.of(response.rows())
+                .map(row -> String.valueOf(row[0]))
+                .collect(Collectors.joining(", "));
+            execute(String.format("DROP VIEW %s", views));
         }
     }
 
@@ -75,7 +75,6 @@ public class ViewsITest extends SQLTransportIntegrationTest {
         execute("CREATE VIEW v1 AS select * FROM t1");
         execute("CREATE VIEW v2 AS select * FROM t1");
         assertThat(printedTable(execute("SELECT * FROM v1 INNER JOIN v2 ON v1.x = v2.x").rows()), is("foo| 1| foo| 1\n"));
-        execute("DROP VIEW v1, v2");
     }
 
     @Test

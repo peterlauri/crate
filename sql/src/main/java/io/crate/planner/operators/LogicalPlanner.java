@@ -229,8 +229,7 @@ public class LogicalPlanner {
                                                         FetchMode fetchMode,
                                                         SessionContext sessionContext) {
         if (queriedRelation instanceof AnalyzedView) {
-            QueriedRelation relation = ((AnalyzedView) queriedRelation).relation();
-            return plan(relation, fetchMode, subqueryPlanner, false, sessionContext);
+            return plan(((AnalyzedView) queriedRelation).relation(), fetchMode, subqueryPlanner, false, sessionContext);
         }
         if (queriedRelation instanceof QueriedTable) {
             return Collect.create((QueriedTable) queriedRelation, toCollect, where);

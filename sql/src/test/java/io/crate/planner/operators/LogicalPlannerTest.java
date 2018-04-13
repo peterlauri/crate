@@ -336,7 +336,7 @@ public class LogicalPlannerTest extends CrateDummyClusterServiceUnitTest {
         private int indentation = 0;
 
         Printer(SymbolPrinter symbolPrinter) {
-            sb = new StringBuilder();
+            this.sb = new StringBuilder();
             this.symbolPrinter = symbolPrinter;
         }
 
