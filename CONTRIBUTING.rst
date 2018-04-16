@@ -80,6 +80,9 @@ the changes are not primarily to the main code base. For example::
     Test: Fix flakiness of JoinIntegrationTest
     Docs: Include ON CONFLICT clause in INSERT page
 
+
+See also: https://chris.beams.io/posts/git-commit/
+
 Updating Your Branch
 --------------------
 
@@ -118,6 +121,9 @@ Once you're done, you can check it worked by running::
 If you're happy, force push::
 
     $ git push -f
+
+
+See also: http://www.ericbmerritt.com/2011/09/21/commit-hygiene-and-git.html
 
 .. _CLA: https://crate.io/community/contribute/agreements/
 .. _Crate.io: http://crate.io/
